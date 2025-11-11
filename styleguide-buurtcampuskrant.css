@@ -1,0 +1,90 @@
+/* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
+   https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
+   https://css-tricks.com/css-cascade-layers/ */
+
+:root {
+  --toren-oranje: rgb(234 91 12);
+  --paars-blauw: rgb(51 52 103);
+  --mos-groen: rgb(142 163 75);
+  --mos-donkergroen: rgb(109 125 57);
+  --zee: rgb(8 91 100);
+  --modder: rgb(105 96 79);
+  --lucht-blauw: rgb(180 189 208);
+}
+
+@layer styleguide {
+  /* Schrijf hier de verschillende stijlen, die
+       gedeeld gaan worden door jullie projecten */
+
+  /* Kleuren */
+  .kleur-toren-oranje {
+    background-color: var(--toren-oranje);
+    color: white;
+  }
+
+  .kleur-paars-blauw {
+    background-color: var(--paars-blauw);
+    color: white;
+  }
+
+  .kleur-mos-groen {
+    background-color: var(--mos-groen);
+    color: black;
+  }
+
+  .kleur-mos-donkergroen {
+    background-color: var(--mos-donkergroen);
+    color: white;
+  }
+
+  .kleur-zee {
+    background-color: var(--zee);
+    color: white;
+  }
+
+  .kleur-modder {
+    background-color: var(--modder);
+    color: white;
+  }
+
+  .kleur-lucht-blauw {
+    background-color: var(--lucht-blauw);
+    color: var(--paars-blauw);
+  }
+
+  /* Typografie */
+  #typografie {
+    font-family: Arial;
+  }
+
+  .kop {
+    font-size: 2.8rem;
+  }
+
+  .sub-kop {
+    font-size: 1.8rem;
+  }
+
+  .navigatie {
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+  }
+
+  .body {
+    font-size: 1rem;
+  }
+
+  .figcaption {
+    font-size: 0.8rem;
+  }
+
+  .subkop {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  /* Formulier elementen */
+}
