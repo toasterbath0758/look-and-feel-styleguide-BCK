@@ -8,8 +8,8 @@
        gedeeld gaan worden door jullie projecten */
 
     /* Kleuren */
-    .color-example {
-        background-color: #bada55;
+    .color-example-1 {
+        background-color:var() #EA5B0C
     }
 
     /* Typografie */
