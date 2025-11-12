@@ -3,13 +3,33 @@
    https://css-tricks.com/css-cascade-layers/ */
 
 :root {
-  --toren-oranje: rgb(234 91 12);
-  --paars-blauw: rgb(51 52 103);
-  --mos-groen: rgb(142 163 75);
-  --mos-donkergroen: rgb(109 125 57);
-  --zee: rgb(8 91 100);
-  --modder: rgb(105 96 79);
-  --lucht-blauw: rgb(180 189 208);
+  /* Colors */
+  --primary-color-main: rgb(180 189 208);
+  --primary-color-zuidoost: rgb(8 91 100);
+  --primary-color-oost: rgb(51 52 103);
+  --primary-color-nieuw-west: rgb(109 125 57);
+  --accent-color: rgb(234 91 12);
+
+  /* Text colors */
+  --text-color-main: rgb(51 52 103);
+  --text-color-zuidoost: rgb(8 91 100);
+  --text-color-oost: rgb(51 52 103);
+  --text-color-nieuw-west: rgb(109 125 57);
+  --text-color-buurt: rgb(255 255 255);
+
+  /* Blockquote colors */
+  --blockquote-color1: rgb(234 91 12);
+  --blockquote-color2: rgb(51 52 103);
+  --blockquote-color3: rgb(8 91 100);
+  --blockquote-color4: rgb(109 125 57);
+
+  /* Font sizes */
+  --font-size-xxl: 2.8rem;
+  --font-size-xl: 1.8rem;
+  --font-size-l: 1.5rem;
+  --font-size-m: 1.2rem;
+  --font-size-s: 1rem;
+  --font-size-xs: 0.8rem;
 }
 
 @layer styleguide {
@@ -17,8 +37,8 @@
        gedeeld gaan worden door jullie projecten */
 
   /* Kleuren */
-  .kleur-toren-oranje {
-    background-color: var(--toren-oranje);
+  .accent-color {
+    background-color: var(--accent-color);
     color: white;
   }
 
