@@ -107,4 +107,26 @@
   }
 
   /* Formulier elementen */
+  .contact-form {
+    background-color: var(--primary-color-main);
+    padding: 5rem;
+    border-radius: 3rem;
+
+    p {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .form-label-text {
+    font-size: 1.2rem;
+  }
+
+  .form-input-text {
+    border: none;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
 }
