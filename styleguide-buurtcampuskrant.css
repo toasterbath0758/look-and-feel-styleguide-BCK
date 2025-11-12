@@ -1,17 +1,4 @@
-/* We gebruiken hier Cascade layers, wat mogelijke problemen met Specificiteit voorkomt
-   https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
-   https://css-tricks.com/css-cascade-layers/ */
-
-/* Test voor leertaak */
-.accent-color {
-  background-color: var(--accent-color);
-  color: white;
-}
-
 @layer styleguide {
-  /* Schrijf hier de verschillende stijlen, die
-       gedeeld gaan worden door jullie projecten */
-
   :root {
     /* Colors */
     --primary-color-main: rgb(180 189 208);
@@ -26,6 +13,7 @@
     --text-color-oost: rgb(51 52 103);
     --text-color-nieuw-west: rgb(109 125 57);
     --text-color-buurt: rgb(255 255 255);
+    --text-color-blockquote: rgb(255 255 255);
 
     /* Blockquote colors */
     --blockquote-color1: rgb(234 91 12);
@@ -42,40 +30,34 @@
     --font-size-xs: 0.8rem;
   }
 
-  /* Kleuren */
-  .accent-color {
-    background-color: var(--accent-color);
-    color: white;
+  * {
+    line-height: 1.4;
   }
 
-  .kleur-paars-blauw {
-    background-color: var(--paars-blauw);
-    color: white;
-  }
-
-  .kleur-mos-groen {
-    background-color: var(--mos-groen);
+  /* Classes voor visualisatie styleguide */
+  .color-example1 {
+    background-color: var(--primary-color-main);
     color: black;
   }
 
-  .kleur-mos-donkergroen {
-    background-color: var(--mos-donkergroen);
+  .color-example2 {
+    background-color: var(--primary-color-zuidoost);
     color: white;
   }
 
-  .kleur-zee {
-    background-color: var(--zee);
+  .color-example3 {
+    background-color: var(--primary-color-oost);
     color: white;
   }
 
-  .kleur-modder {
-    background-color: var(--modder);
+  .color-example4 {
+    background-color: var(--primary-color-nieuw-west);
     color: white;
   }
 
-  .kleur-lucht-blauw {
-    background-color: var(--lucht-blauw);
-    color: var(--paars-blauw);
+  .color-example5 {
+    background-color: var(--accent-color);
+    color: black;
   }
 
   /* Typografie */
@@ -83,33 +65,45 @@
     font-family: Arial;
   }
 
-  .kop {
+  .font-size-xxl {
     font-size: 2.8rem;
   }
 
-  .sub-kop {
+  .font-size-xl {
     font-size: 1.8rem;
   }
 
-  .navigatie {
+  .font-size-l {
     font-size: 1.5rem;
   }
 
-  .intro {
+  .font-size-m {
     font-size: 1.2rem;
   }
 
-  .body {
+  .font-size-s {
     font-size: 1rem;
   }
 
-  .figcaption {
+  .font-size-xs {
     font-size: 0.8rem;
   }
 
-  .subkop {
-    font-size: 1rem;
-    font-weight: bold;
+  .bold {
+    font-weight: 700;
+  }
+
+  .blockquote1 {
+    /* Voor elke blockquote (verander de background-color naar wens) */
+    background-color: var(--accent-color);
+    color: var(--text-color-blockquote);
+    text-align: center;
+    font-style: italic;
+
+    /* Speel hier zelf mee */
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    border-radius: 6rem;
+    max-width: 400px;
   }
 
   /* Formulier elementen */
