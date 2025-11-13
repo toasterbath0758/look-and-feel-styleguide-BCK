@@ -21,6 +21,12 @@
     --blockquote-color3: rgb(8 91 100);
     --blockquote-color4: rgb(109 125 57);
 
+    /* Button colors */
+    --button-color1: rgb(234 91 12);
+    --button-color2: rgb(51 52 103);
+    --button-color3: rgb(8 91 100);
+    --button-color4: rgb(109 125 57);
+
     /* Font sizes */
     --font-size-xxl: 2.8rem;
     --font-size-xl: 1.8rem;
@@ -103,7 +109,7 @@
     font-style: italic;
 
     /* Speel hier zelf mee */
-    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    padding: 0.5rem 1.2rem;
     border-radius: 6rem;
     max-width: 400px;
   }
@@ -126,5 +132,16 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     font-size: 1rem;
+  }
+
+  .submit-button,
+  .button {
+    background-color: var(--button-color2);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5rem;
+    width: fit-content;
   }
 }
