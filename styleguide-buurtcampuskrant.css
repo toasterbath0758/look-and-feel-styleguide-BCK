@@ -31,7 +31,9 @@
   }
 
   * {
+    box-sizing: border-box;
     line-height: 1.4;
+    font-family: Arial;
   }
 
   /* Classes voor visualisatie styleguide */
@@ -61,9 +63,9 @@
   }
 
   /* Typografie */
-  #typografie {
-    font-family: Arial;
-  }
+  /* #typografie {
+    
+  } */
 
   .font-size-xxl {
     font-size: 2.8rem;
@@ -111,6 +113,7 @@
     background-color: var(--primary-color-main);
     padding: 5rem;
     border-radius: 3rem;
+    font-size: 1.2rem;
 
     p {
       display: flex;
@@ -118,15 +121,10 @@
     }
   }
 
-  .form-label-text {
-    font-size: 1.2rem;
-  }
-
-  .form-input-text {
+  .input-field {
     border: none;
     border-radius: 0.5rem;
-    padding-left: 0.5rem;
-    height: 2rem;
+    padding: 0.5rem;
     font-size: 1rem;
   }
 }
