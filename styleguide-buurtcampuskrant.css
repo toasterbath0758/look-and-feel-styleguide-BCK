@@ -158,3 +158,60 @@
 
   /* Header flaggetjes */
 }
+
+@font-face{
+  font-family: "Arial-BoldMT";
+  src: url("Fonts/Arial-BoldMT.ttf");
+}
+
+@font-face{
+  font-family: "BuurtCampusArial-Bold";
+  src: url("Fonts/BuurtCampusArial-Bold.ttf");
+}
+
+
+h1 {
+  font-family: "Arial-BoldMT";
+}
+
+h2 {
+  font-family: "Arial-BoldMT";
+}
+
+p {
+  font-family: arial;
+}
+
+a {
+  font-family: "Arial-BoldMT";
+}
+
+figcaption {
+  font-family: arial;
+}
+
+code {
+  font-family: arial;
+  ;
+}
+
+li {
+  font-family: arial;
+}
+
+th {
+  font-family: "Arial-BoldMT";
+}
+
+td {
+  font-family: arial;
+}
+
+label {
+  font-family: arial;
+}
+
+legend {
+  font-family: "Arial-BoldMT";
+}
+
