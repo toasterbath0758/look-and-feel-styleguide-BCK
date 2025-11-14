@@ -165,21 +165,22 @@
     font-family: "Arial-BoldMT";
   }
 
-/* ✔️ gegroepeerd: Arial-BoldMT */
-h1,
-h2,
-a,
-th,
-legend {
-  font-family: "Arial-BoldMT";
-}
+  /* ✔️ gegroepeerd: Arial-BoldMT */
+  h1,
+  h2,
+  a,
+  th,
+  legend {
+    font-family: "Arial-BoldMT";
+  }
 
-/* ✔️ gegroepeerd: arial */
-p,
-figcaption,
-code,
-li,
-td,
-label {
-  font-family: arial;
+  /* ✔️ gegroepeerd: arial */
+  p,
+  figcaption,
+  code,
+  li,
+  td,
+  label {
+    font-family: arial;
+  }
 }
