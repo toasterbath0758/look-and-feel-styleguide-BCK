@@ -124,6 +124,10 @@
     max-width: 400px;
   }
 
+  #formulieren {
+    margin: 1rem;
+  }
+
   /* Formulier elementen */
   .contact-form {
     background-color: var(--primary-color-main);
@@ -206,44 +210,14 @@
 
 /* hover function met vlaggetje clipper */
 .navKnopLink,.navKnop:focus-visible {
-    background-color: grey;
-    padding-top: 3rem;
-}
+    background-color: var(--primary-color-main);
+    border-radius: 5rem;
+    margin-bottom: 1rem;
 
-/* kleurverrandering als je klikt op de navKnop */
-/* .navKnopLink:active {
-    color: lightblue;
-}
-
-a.navKnop{
-    background-color: white;
-    color: rgb(51 52 103);
-    padding-right: 2rem;
-}
-
-.navKnop:active{
-    color: rgb(51 52 103);
-}  */
-
-#navList{
-    padding: 0 0 0 0;
     display: flex;
-    gap: 0em;
     justify-content: center;
-    translate: center;
-    white-space: nowrap;
-    padding-left: 1.5em;
-    flex-wrap: wrap;
-
-        @media (min-width: 360px) {
-            flex-wrap: nowrap;
-        }
-
-        @media (min-width: 570px){
-        gap: 1em;
-        }
+    align-items: center;
 }
-
 /* knoppen in de nav */
 .navKnop{
     color: rgb(51 52 103);
@@ -251,10 +225,7 @@ a.navKnop{
     translate: 0 0;
 }
 
-/* hier nog even naar kijken */
-/* .navKnop::after {
-    content:"00"
-} */
+
 
 /* hover function met vlaggetje clipper */
 .navKnop:hover,.navKnop:focus-visible{
