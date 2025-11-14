@@ -1,4 +1,11 @@
 @layer styleguide {
+
+   * {
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: Arial;
+  }
+
   :root {
     /* Colors */
     --primary-color-main: rgb(180 189 208);
@@ -34,12 +41,6 @@
     --font-size-m: 1.2rem;
     --font-size-s: 1rem;
     --font-size-xs: 0.8rem;
-  }
-
-  * {
-    box-sizing: border-box;
-    line-height: 1.4;
-    font-family: Arial;
   }
 
   /* Classes voor visualisatie styleguide */
