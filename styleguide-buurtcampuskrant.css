@@ -43,27 +43,27 @@
   }
 
   /* Classes voor visualisatie styleguide */
-  .color-example1 {
+  .primary-color-main {
     background-color: var(--primary-color-main);
     color: black;
   }
 
-  .color-example2 {
+  .primary-color-zuidoost {
     background-color: var(--primary-color-zuidoost);
     color: white;
   }
 
-  .color-example3 {
+  .primary-color-oost {
     background-color: var(--primary-color-oost);
     color: white;
   }
 
-  .color-example4 {
+  .primary-color-nieuw-west {
     background-color: var(--primary-color-nieuw-west);
     color: white;
   }
 
-  .color-example5 {
+  .accent-color {
     background-color: var(--accent-color);
     color: black;
   }
@@ -159,16 +159,15 @@
   /* Header flaggetjes */
 }
 
-@font-face{
+@font-face {
   font-family: "Arial-BoldMT";
   src: url("Fonts/Arial-BoldMT.ttf");
 }
 
-@font-face{
+@font-face {
   font-family: "BuurtCampusArial-Bold";
   src: url("Fonts/BuurtCampusArial-Bold.ttf");
 }
-
 
 h1 {
   font-family: "Arial-BoldMT";
@@ -192,7 +191,6 @@ figcaption {
 
 code {
   font-family: arial;
-  ;
 }
 
 li {
@@ -214,4 +212,3 @@ label {
 legend {
   font-family: "Arial-BoldMT";
 }
-
