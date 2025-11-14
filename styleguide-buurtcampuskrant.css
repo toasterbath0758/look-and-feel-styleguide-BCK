@@ -86,7 +86,7 @@
   }
 
   /* Typografie */
-  .font-size-xxl {
+  /* .font-size-xxl {
     font-size: 2.8rem;
   }
 
@@ -108,9 +108,9 @@
 
   .font-size-xs {
     font-size: 0.8rem;
-  }
-
-  .bold {
+  } */
+ 
+  /* .bold {
     font-weight: 700;
   }
 
@@ -163,12 +163,7 @@
     width: fit-content;
     font-size: 1rem;
   }
-
-  /* Header flaggetjes */
-  h1 {
-    font-family: "Arial-BoldMT";
-  }
-
+  
   /* ✔️ gegroepeerd: Arial-BoldMT */
   h1,
   h2,
@@ -186,6 +181,33 @@
   td,
   label {
     font-family: arial;
+  }
+
+  /* kop */
+  h1 {
+    font-size: var(--font-size-xxl);
+  }
+
+  /* subkop */
+  h2 {
+    font-size: var(--font-size-xl);
+  }
+
+  /* navknoppen */
+  a {
+    font-size: var(--font-size-l);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* body, bullits, subkop */
+  p {
+    font-size: var(--font-size-s);
+  }
+
+  /* figcaption */
+  figcaption {
+    font-size: var(--font-size-xs);
   }
 }
 
@@ -241,8 +263,8 @@
 .navKnop:active{
     color: lightblue;
 }
-
-li{
+/* fixed probleem waar de list nu alleen de styling weghaalt in de nav en niet in de andere lists  */
+#navList {
     list-style: none;
 }
 
@@ -250,7 +272,7 @@ li a{
     text-decoration: none;
     padding: 0.5em;
     padding-right: 1rem;
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
     font-weight: bold;
     display: block;
 }
