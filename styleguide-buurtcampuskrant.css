@@ -43,6 +43,16 @@
     --font-size-xs: 0.8rem;
   }
 
+  @font-face{
+  font-family: "Arial-BoldMT";
+  src: url("Fonts/Arial-BoldMT.ttf");
+}
+
+@font-face{
+  font-family: "BuurtCampusArial-Bold";
+  src: url("Fonts/BuurtCampusArial-Bold.ttf");
+}
+
   /* Classes voor visualisatie styleguide */
   .primary-color-main {
     background-color: var(--primary-color-main);
@@ -158,16 +168,6 @@
   }
 
   /* Header flaggetjes */
-}
-
-@font-face {
-  font-family: "Arial-BoldMT";
-  src: url("Fonts/Arial-BoldMT.ttf");
-}
-
-@font-face {
-  font-family: "BuurtCampusArial-Bold";
-  src: url("Fonts/BuurtCampusArial-Bold.ttf");
 }
 
 h1 {
