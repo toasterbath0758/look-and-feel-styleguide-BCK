@@ -1,3 +1,13 @@
+    @font-face{
+  font-family: "Arial-BoldMT";
+  src: url("Fonts/Arial-BoldMT.ttf");
+}
+
+@font-face{
+  font-family: "BuurtCampusArial-Bold";
+  src: url("Fonts/BuurtCampusArial-Bold.ttf");
+}
+  
   * {
     box-sizing: border-box;
     line-height: 1.4;
@@ -5,6 +15,13 @@
   }
 
 @layer styleguide {
+
+   * {
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: Arial;
+  }
+
   :root {
     /* Colors */
     --primary-color-main: rgb(180 189 208);
@@ -43,27 +60,27 @@
   }
 
   /* Classes voor visualisatie styleguide */
-  .color-example1 {
+  .primary-color-main {
     background-color: var(--primary-color-main);
     color: black;
   }
 
-  .color-example2 {
+  .primary-color-zuidoost {
     background-color: var(--primary-color-zuidoost);
     color: white;
   }
 
-  .color-example3 {
+  .primary-color-oost {
     background-color: var(--primary-color-oost);
     color: white;
   }
 
-  .color-example4 {
+  .primary-color-nieuw-west {
     background-color: var(--primary-color-nieuw-west);
     color: white;
   }
 
-  .color-example5 {
+  .accent-color {
     background-color: var(--accent-color);
     color: black;
   }
@@ -157,111 +174,58 @@
   }
 
   /* Header flaggetjes */
-}
-
-@font-face{
-  font-family: "Arial-BoldMT";
-  src: url("Fonts/Arial-BoldMT.ttf");
-}
-
-@font-face{
-  font-family: "BuurtCampusArial-Bold";
-  src: url("Fonts/BuurtCampusArial-Bold.ttf");
-}
 
 
-h1 {
-  font-family: "Arial-BoldMT";
-}
+  h1 {
+    font-family: "Arial-BoldMT";
+  }
 
-h2 {
-  font-family: "Arial-BoldMT";
-}
+  h2 {
+    font-family: "Arial-BoldMT";
+  }
 
-p {
-  font-family: arial;
-}
+  p {
+    font-family: arial;
+  }
 
-a {
-  font-family: "Arial-BoldMT";
-  text-decoration: none;
-}
+  a {
+    font-family: "Arial-BoldMT";
+    text-decoration: none;
+  }
 
-figcaption {
-  font-family: arial;
-}
+  figcaption {
+    font-family: arial;
+  }
 
-code {
-  font-family: arial;
-  ;
-}
+  code {
+    font-family: arial;
+  }
 
-li {
-  font-family: arial;
-  list-style: none;
-}
+  li {
+    font-family: arial;
+    list-style: none;
+  }
 
-li a{
-  text-decoration: none;
-  padding: 0.5em;
-  padding-right: 1rem;
-}
+  li a{
+    text-decoration: none;
+    padding: 0.5em;
+    padding-right: 1rem;
+  }
 
-th {
-  font-family: "Arial-BoldMT";
-}
+  th {
+    font-family: "Arial-BoldMT";
+  }
 
-td {
-  font-family: arial;
-}
+  td {
+    font-family: arial;
+  }
 
-label {
-  font-family: arial;
-}
+  label {
+    font-family: arial;
+  }
 
-legend {
-  font-family: "Arial-BoldMT";
-}
+  legend {
+    font-family: "Arial-BoldMT";
+  }
 
-#navList{
-    padding: 0 0 0 0;
-    display: flex;
-    gap: 0em;
-    justify-content: center;
-    translate: center;
-    white-space: nowrap;
-    padding-left: 1.5em;
-    flex-wrap: wrap;
-
-        @media (min-width: 360px) {
-            flex-wrap: nowrap;
-        }
-
-        @media (min-width: 570px){
-        gap: 1em;
-        }
-}
-
-/* hover function met vlaggetje clipper */
-.navKnopLink:hover,.navKnop:focus-visible {
-    background-color: white;
-
-    padding-right: 2rem;
-    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
-    padding: 0.1em 2.5em 0.1em 0.5em;
-}
-
-/* kleurverrandering als je klikt op de navKnop */
-.navKnopLink:active {
-    color: lightblue;
-}
-
-a.navKnop{
-    background-color: white;
-    color: rgb(51 52 103);
-    padding-right: 2rem;
-}
-
-.navKnop:active{
-    color: rgb(51 52 103);
 }
