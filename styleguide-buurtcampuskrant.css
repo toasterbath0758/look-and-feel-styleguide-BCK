@@ -15,8 +15,7 @@
   }
 
 @layer styleguide {
-
-   * {
+  * {
     box-sizing: border-box;
     line-height: 1.4;
     font-family: Arial;
@@ -59,6 +58,7 @@
     --font-size-xs: 0.8rem;
   }
 
+
   /* Classes voor visualisatie styleguide */
   .primary-color-main {
     background-color: var(--primary-color-main);
@@ -86,10 +86,6 @@
   }
 
   /* Typografie */
-  /* #typografie {
-    
-  } */
-
   .font-size-xxl {
     font-size: 2.8rem;
   }
@@ -119,14 +115,10 @@
   }
 
   .blockquote1 {
-    /* Voor elke blockquote (verander de background-color naar wens) */
     background-color: var(--accent-color);
     color: var(--text-color-blockquote);
-
     text-align: center;
     font-style: italic;
-
-    /* Speel hier zelf mee */
     padding: 0.5rem 1.2rem;
     border-radius: 6rem;
     max-width: 400px;
@@ -135,10 +127,8 @@
   /* Formulier elementen */
   .contact-form {
     background-color: var(--primary-color-main);
-
     padding: 5rem;
     border-radius: 3rem;
-
     font-size: 1.2rem;
 
     p {
@@ -152,7 +142,6 @@
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem;
-
     font-size: 1rem;
   }
 
@@ -164,12 +153,10 @@
   .button {
     background-color: var(--button-color2);
     color: white;
-
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5rem;
     width: fit-content;
-
     font-size: 1rem;
   }
 
@@ -178,52 +165,21 @@
     font-family: "Arial-BoldMT";
   }
 
-  h2 {
-    font-family: "Arial-BoldMT";
-  }
+/* ✔️ gegroepeerd: Arial-BoldMT */
+h1,
+h2,
+a,
+th,
+legend {
+  font-family: "Arial-BoldMT";
+}
 
-  p {
-    font-family: arial;
-  }
-
-  a {
-    font-family: "Arial-BoldMT";
-    text-decoration: none;
-  }
-
-  figcaption {
-    font-family: arial;
-  }
-
-  code {
-    font-family: arial;
-  }
-
-  li {
-    font-family: arial;
-    list-style: none;
-  }
-
-  li a{
-    text-decoration: none;
-    padding: 0.5em;
-    padding-right: 1rem;
-  }
-
-  th {
-    font-family: "Arial-BoldMT";
-  }
-
-  td {
-    font-family: arial;
-  }
-
-  label {
-    font-family: arial;
-  }
-
-  legend {
-    font-family: "Arial-BoldMT";
-  }
-
+/* ✔️ gegroepeerd: arial */
+p,
+figcaption,
+code,
+li,
+td,
+label {
+  font-family: arial;
 }
