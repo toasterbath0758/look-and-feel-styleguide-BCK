@@ -1,11 +1,13 @@
     @font-face{
   font-family: "Arial-BoldMT";
   src: url("Fonts/Arial-BoldMT.ttf");
+   font-weight: bold;
 }
 
 @font-face{
   font-family: "BuurtCampusArial-Bold";
   src: url("Fonts/BuurtCampusArial-Bold.ttf");
+   font-weight: bold;
 }
   
   * {
