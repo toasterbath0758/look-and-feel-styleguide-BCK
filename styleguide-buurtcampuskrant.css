@@ -25,31 +25,19 @@
 @layer styleguide {
   :root {
     /* Colors */
-    --primary-color-main: rgb(180 189 208);
-    --primary-color-zuidoost: rgb(8 91 100);
-    --primary-color-oost: rgb(51 52 103);
-    --primary-color-nieuw-west: rgb(109 125 57);
-    --accent-color: rgb(234 91 12);
+    --color-lucht-blauw: rgb(180 189 208);
+    --color-zee: rgb(8 91 100);
+    --color-paars-blauw: rgb(51 52 103);
+    --color-mos-groen: rgb(109 125 57);
+    --color-toren-oranje: rgb(234 91 12);
+    --color-white: rgb(255 255 255);
 
-    /* Text colors */
-    --text-color-main: rgb(51 52 103);
-    --text-color-zuidoost: rgb(8 91 100);
-    --text-color-oost: rgb(51 52 103);
-    --text-color-nieuw-west: rgb(109 125 57);
-    --text-color-buurt: rgb(255 255 255);
-    --text-color-blockquote: rgb(255 255 255);
-
-    /* Blockquote colors */
-    --blockquote-color1: rgb(234 91 12);
-    --blockquote-color2: rgb(51 52 103);
-    --blockquote-color3: rgb(8 91 100);
-    --blockquote-color4: rgb(109 125 57);
-
-    /* Button colors */
-    --button-color1: rgb(234 91 12);
-    --button-color2: rgb(51 52 103);
-    --button-color3: rgb(8 91 100);
-    --button-color4: rgb(109 125 57);
+    --color1: var(--color-lucht-blauw);
+    --color2: var(--color-zee);
+    --color3: var(--color-paars-blauw);
+    --color4: var(--color-mos-groen);
+    --color5: var(--color-toren-oranje);
+    --color6: var(--color-white);
 
     /* Font sizes */
     --font-size-xxl: 2.8rem;
