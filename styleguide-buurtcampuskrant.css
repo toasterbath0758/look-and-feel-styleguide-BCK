@@ -74,6 +74,72 @@
     color: var(--color6);
   }
 
+  /* Kleuren voor eigen project */
+
+  .header-home {
+    background-color: var(--color1);
+    color: var(--color3);
+  }
+
+  .header-zuidoost {
+    background-color: var(--color2);
+    color: var(--color6);
+  }
+
+  .header-oost {
+    background-color: var(--color3);
+    color: var(--color6);
+  }
+
+  .header-nieuw-west {
+    background-color: var(--color4);
+    color: var(--color6);
+  }
+
+  .body-home {
+    background-color: var(--color6);
+    color: var(--color3);
+  }
+
+  .body-zuidoost {
+    background-color: var(--color6);
+    color: var(--color2);
+  }
+
+  .body-oost {
+    background-color: var(--color6);
+    color: var(--color3);
+  }
+
+  .body-nieuw-west {
+    background-color: var(--color6);
+    color: var(--color4);
+  }
+
+  .blockquote1 {
+    background-color: var(--color5);
+    color: var(--color6);
+  }
+
+  .blockquote2 {
+    background-color: var(--color3);
+    color: var(--color6);
+  }
+  .blockquote3 {
+    background-color: var(--color2);
+    color: var(--color6);
+  }
+
+  .blockquote4 {
+    background-color: var(--color4);
+    color: var(--color6);
+  }
+
+  .form-button {
+    background-color: var(--color3);
+    color: var(--color6);
+  }
+
   /* Typografie */
   /* .font-size-xxl {
     font-size: 2.8rem;
