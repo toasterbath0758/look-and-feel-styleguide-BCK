@@ -1,117 +1,124 @@
-    @font-face {
-      font-family: "Arial-BoldMT";
-      src: url("Fonts/Arial-BoldMT.ttf");
-    }
+    @font-face{
+  font-family: "Arial-BoldMT";
+  src: url("Fonts/Arial-BoldMT.ttf");
+   font-weight: bold;
+}
 
-    @font-face {
-      font-family: "BuurtCampusArial-Bold";
-      src: url("Fonts/BuurtCampusArial-Bold.ttf");
-    }
+    @font-face{
+  font-family: "Arial-BoldMT";
+  src: url("Fonts/Arial-BoldMT.ttf");
+   font-weight: bold;
+}
 
-    * {
-      box-sizing: border-box;
-      line-height: 1.4;
-      font-family: Arial;
-    }
+@font-face{
+  font-family: "BuurtCampusArial-Bold";
+  src: url("Fonts/BuurtCampusArial-Bold.ttf");
+   font-weight: bold;
+}
+  
+  * {
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: Arial;
+  }
 
-    @layer styleguide {
-      * {
-        box-sizing: border-box;
-        line-height: 1.4;
-        font-family: Arial;
-      }
+@layer styleguide {
+  * {
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: Arial;
+  }
 
-      :root {
-        /* Colors */
-        --primary-color-main: rgb(180 189 208);
-        --primary-color-zuidoost: rgb(8 91 100);
-        --primary-color-oost: rgb(51 52 103);
-        --primary-color-nieuw-west: rgb(109 125 57);
-        --accent-color: rgb(234 91 12);
+  :root {
+    /* Colors */
+    --primary-color-main: rgb(180 189 208);
+    --primary-color-zuidoost: rgb(8 91 100);
+    --primary-color-oost: rgb(51 52 103);
+    --primary-color-nieuw-west: rgb(109 125 57);
+    --accent-color: rgb(234 91 12);
 
-        /* Text colors */
-        --text-color-main: rgb(51 52 103);
-        --text-color-zuidoost: rgb(8 91 100);
-        --text-color-oost: rgb(51 52 103);
-        --text-color-nieuw-west: rgb(109 125 57);
-        --text-color-buurt: rgb(255 255 255);
-        --text-color-blockquote: rgb(255 255 255);
+    /* Text colors */
+    --text-color-main: rgb(51 52 103);
+    --text-color-zuidoost: rgb(8 91 100);
+    --text-color-oost: rgb(51 52 103);
+    --text-color-nieuw-west: rgb(109 125 57);
+    --text-color-buurt: rgb(255 255 255);
+    --text-color-blockquote: rgb(255 255 255);
 
-        /* Blockquote colors */
-        --blockquote-color1: rgb(234 91 12);
-        --blockquote-color2: rgb(51 52 103);
-        --blockquote-color3: rgb(8 91 100);
-        --blockquote-color4: rgb(109 125 57);
+    /* Blockquote colors */
+    --blockquote-color1: rgb(234 91 12);
+    --blockquote-color2: rgb(51 52 103);
+    --blockquote-color3: rgb(8 91 100);
+    --blockquote-color4: rgb(109 125 57);
 
-        /* Button colors */
-        --button-color1: rgb(234 91 12);
-        --button-color2: rgb(51 52 103);
-        --button-color3: rgb(8 91 100);
-        --button-color4: rgb(109 125 57);
+    /* Button colors */
+    --button-color1: rgb(234 91 12);
+    --button-color2: rgb(51 52 103);
+    --button-color3: rgb(8 91 100);
+    --button-color4: rgb(109 125 57);
 
-        /* Font sizes */
-        --font-size-xxl: 2.8rem;
-        --font-size-xl: 1.8rem;
-        --font-size-l: 1.5rem;
-        --font-size-m: 1.2rem;
-        --font-size-s: 1rem;
-        --font-size-xs: 0.8rem;
-      }
+    /* Font sizes */
+    --font-size-xxl: 2.8rem;
+    --font-size-xl: 1.8rem;
+    --font-size-l: 1.5rem;
+    --font-size-m: 1.2rem;
+    --font-size-s: 1rem;
+    --font-size-xs: 0.8rem;
+  }
 
 
-      /* Classes voor visualisatie styleguide */
-      .primary-color-main {
-        background-color: var(--primary-color-main);
-        color: black;
-      }
+  /* Classes voor visualisatie styleguide */
+  .primary-color-main {
+    background-color: var(--primary-color-main);
+    color: black;
+  }
 
-      .primary-color-zuidoost {
-        background-color: var(--primary-color-zuidoost);
-        color: white;
-      }
+  .primary-color-zuidoost {
+    background-color: var(--primary-color-zuidoost);
+    color: white;
+  }
 
-      .primary-color-oost {
-        background-color: var(--primary-color-oost);
-        color: white;
-      }
+  .primary-color-oost {
+    background-color: var(--primary-color-oost);
+    color: white;
+  }
 
-      .primary-color-nieuw-west {
-        background-color: var(--primary-color-nieuw-west);
-        color: white;
-      }
+  .primary-color-nieuw-west {
+    background-color: var(--primary-color-nieuw-west);
+    color: white;
+  }
 
-      .accent-color {
-        background-color: var(--accent-color);
-        color: black;
-      }
+  .accent-color {
+    background-color: var(--accent-color);
+    color: black;
+  }
 
-      /* Typografie */
-      .font-size-xxl {
-        font-size: 2.8rem;
-      }
+  /* Typografie */
+  /* .font-size-xxl {
+    font-size: 2.8rem;
+  }
 
-      .font-size-xl {
-        font-size: 1.8rem;
-      }
+  .font-size-xl {
+    font-size: 1.8rem;
+  }
 
-      .font-size-l {
-        font-size: 1.5rem;
-      }
+  .font-size-l {
+    font-size: 1.5rem;
+  }
 
-      .font-size-m {
-        font-size: 1.2rem;
-        font-weight: bold;
-      }
+  .font-size-m {
+    font-size: 1.2rem;
+  }
 
-      .font-size-s {
-        font-size: 1rem;
-      }
+  .font-size-s {
+    font-size: 1rem;
+  }
 
-      .font-size-xs {
-        font-size: 1rem;
-      }
-
-      /* .bold {
+  .font-size-xs {
+    font-size: 0.8rem;
+  } */
+ 
+  /* .bold {
     font-weight: 700;
   }
 
@@ -130,155 +137,150 @@
   }
 
   /* Formulier elementen */
-      .contact-form {
-        background-color: var(--primary-color-main);
-        padding: 5rem;
-        border-radius: 3rem;
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
+  .contact-form {
+    background-color: var(--primary-color-main);
+    padding: 5rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
 
-        p {
-          display: flex;
-          flex-direction: column;
+    p {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .input-field,
+  .textarea-input-field {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .textarea-input-field {
+    resize: none;
+  }
+
+  .submit-button,
+  .button {
+    background-color: var(--button-color2);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    width: fit-content;
+    font-size: 1rem;
+  }
+  
+  /* ✔️ gegroepeerd: Arial-BoldMT */
+  h1,
+  h2,
+  a,
+  th,
+  legend {
+    font-family: "Arial-BoldMT";
+  }
+
+  /* ✔️ gegroepeerd: arial */
+  p,
+  figcaption,
+  code,
+  li,
+  td,
+  label {
+    font-family: arial;
+  }
+
+  /* kop */
+  h1 {
+    font-size: var(--font-size-xxl);
+  }
+
+  /* subkop */
+  h2 {
+    font-size: var(--font-size-xl);
+  }
+
+  /* navknoppen */
+  a {
+    font-size: var(--font-size-l);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* body, bullits, subkop */
+  p {
+    font-size: var(--font-size-s);
+  }
+
+  /* figcaption */
+  figcaption {
+    font-size: var(--font-size-xs);
+  }
+}
+
+#navList{
+    padding: 0 0 0 0;
+    display: flex;
+    gap: 0em;
+    justify-content: center;
+    translate: center;
+    white-space: nowrap;
+    padding-left: 1.5em;
+    flex-wrap: wrap;
+
+        @media (min-width: 360px) {
+            flex-wrap: nowrap;
         }
-      }
 
-      .input-field,
-      .textarea-input-field {
-        border: none;
-        border-radius: 0.5rem;
-        padding: 0.5rem;
-        font-size: 1rem;
-      }
-
-      .textarea-input-field {
-        resize: none;
-      }
-
-      .submit-button,
-      .button {
-        background-color: var(--button-color2);
-        color: white;
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 5rem;
-        width: fit-content;
-        font-size: 1rem;
-      }
-
-      /* ✔️ gegroepeerd: Arial-BoldMT */
-      h1,
-      h2,
-      a,
-      th,
-      legend {
-        font-family: "Arial-BoldMT";
-      }
-
-      /* ✔️ gegroepeerd: arial */
-      p,
-      figcaption,
-      code,
-      li,
-      td,
-      label {
-        font-family: arial;
-      }
-
-      /* kop */
-      h1 {
-        font-size: var(--font-size-xxl);
-      }
-
-      /* subkop */
-      h2 {
-        font-size: var(--font-size-xl);
-      }
-
-      /* navknoppen */
-      a {
-        font-size: var(--font-size-l);
-        font-weight: bold;
-        text-decoration: none;
-      }
-
-      /* body, bullits, subkop */
-      p {
-        font-size: var(--font-size-s);
-      }
-
-      /* figcaption */
-      figcaption {
-        font-size: var(--font-size-xs);
-      }
-    }
-
-    #navList {
-      padding: 0 0 0 0;
-      display: flex;
-      gap: 0em;
-      justify-content: center;
-      translate: center;
-      white-space: nowrap;
-      padding-left: 1.5em;
-      flex-wrap: wrap;
-
-      @media (min-width: 360px) {
-        flex-wrap: nowrap;
-      }
-
-      @media (min-width: 570px) {
+        @media (min-width: 570px){
         gap: 1em;
-      }
-    }
+        }
+}
 
-    /* hover function met vlaggetje clipper */
-    .navKnopLink,
-    .navKnop:focus-visible {
-      background-color: var(--primary-color-main);
-      border-radius: 5rem;
-      margin-bottom: 1rem;
+/* hover function met vlaggetje clipper */
+.navKnopLink,.navKnop:focus-visible {
+    background-color: var(--primary-color-main);
+    border-radius: 5rem;
+    margin-bottom: 1rem;
 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* knoppen in de nav */
-    .navKnop {
-      color: rgb(51 52 103);
-      padding-right: 2rem;
-      translate: 0 0;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* knoppen in de nav */
+.navKnop{
+    color: rgb(51 52 103);
+    padding-right: 2rem;
+    translate: 0 0;
+}
 
 
 
-    /* hover function met vlaggetje clipper */
-    .navKnop:hover,
-    .navKnop:focus-visible {
-      background-color: white;
-      /* padding-right: 2rem; */
-      clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
-      /* clip-path veranderen zodat padding niet nodig is
+/* hover function met vlaggetje clipper */
+.navKnop:hover,.navKnop:focus-visible{
+    background-color: white;
+    /* padding-right: 2rem; */
+    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+    /* clip-path veranderen zodat padding niet nodig is
     omdat hij beweegt hij moet statisch zijn */
-      padding: 0.1em 2.5em 0.1em 0.5em;
-    }
+    padding: 0.1em 2.5em 0.1em 0.5em;
+}
 
-    /* kleurverrandering als je klikt op de navKnop */
-    .navKnop:active {
-      color: lightblue;
-    }
+/* kleurverrandering als je klikt op de navKnop */
+.navKnop:active{
+    color: lightblue;
+}
+/* fixed probleem waar de list nu alleen de styling weghaalt in de nav en niet in de andere lists  */
+#navList {
+    list-style: none;
+}
 
-    /* fixed probleem waar de list nu alleen de styling weghaalt in de nav en niet in de andere lists  */
-    #navList {
-      list-style: none;
-    }
-
-    li a {
-      text-decoration: none;
-      padding: 0.5em;
-      padding-right: 1rem;
-      /* font-size: 0.8em; */
-      font-weight: bold;
-      display: block;
-    }
+li a{
+    text-decoration: none;
+    padding: 0.5em;
+    padding-right: 1rem;
+    /* font-size: 0.8em; */
+    font-weight: bold;
+    display: block;
+}
