@@ -50,28 +50,28 @@
 
   /* Classes voor visualisatie styleguide */
   .primary-color-main {
-    background-color: var(--primary-color-main);
-    color: black;
+    background-color: var(--color1);
+    color: var(--color3);
   }
 
   .primary-color-zuidoost {
-    background-color: var(--primary-color-zuidoost);
-    color: white;
+    background-color: var(--color2);
+    color: var(--color6);
   }
 
   .primary-color-oost {
-    background-color: var(--primary-color-oost);
-    color: white;
+    background-color: var(--color3);
+    color: var(--color6);
   }
 
   .primary-color-nieuw-west {
-    background-color: var(--primary-color-nieuw-west);
-    color: white;
+    background-color: var(--color4);
+    color: var(--color6);
   }
 
   .accent-color {
-    background-color: var(--accent-color);
-    color: black;
+    background-color: var(--color5);
+    color: var(--color6);
   }
 
   /* Typografie */
@@ -119,7 +119,7 @@
 
   /* Formulier elementen */
   .contact-form {
-    background-color: var(--primary-color-main);
+    background-color: var(--color1);
     padding: 5rem;
     border-radius: 3rem;
     font-size: 1.2rem;
@@ -144,8 +144,8 @@
 
   .submit-button,
   .button {
-    background-color: var(--button-color2);
-    color: white;
+    background-color: var(--color3);
+    color: var(--color6);
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5rem;
@@ -222,7 +222,7 @@
 /* hover function met vlaggetje clipper */
 .navKnopLink,
 .navKnop:focus-visible {
-  background-color: var(--primary-color-main);
+  background-color: var(--color1);
   border-radius: 5rem;
   margin-bottom: 1rem;
 
@@ -232,7 +232,7 @@
 }
 /* knoppen in de nav */
 .navKnop {
-  color: rgb(51 52 103);
+  color: var(--color3);
   padding-right: 2rem;
   translate: 0 0;
 }
@@ -240,7 +240,7 @@
 /* hover function met vlaggetje clipper */
 .navKnop:hover,
 .navKnop:focus-visible {
-  background-color: white;
+  background-color: var(--color6);
   /* padding-right: 2rem; */
   clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
   /* clip-path veranderen zodat padding niet nodig is
