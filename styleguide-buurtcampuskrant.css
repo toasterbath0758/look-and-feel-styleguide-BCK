@@ -1,34 +1,28 @@
-    @font-face{
+@font-face {
   font-family: "Arial-BoldMT";
   src: url("Fonts/Arial-BoldMT.ttf");
-   font-weight: bold;
+  font-weight: bold;
 }
 
-    @font-face{
+@font-face {
   font-family: "Arial-BoldMT";
   src: url("Fonts/Arial-BoldMT.ttf");
-   font-weight: bold;
+  font-weight: bold;
 }
 
-@font-face{
+@font-face {
   font-family: "BuurtCampusArial-Bold";
   src: url("Fonts/BuurtCampusArial-Bold.ttf");
-   font-weight: bold;
+  font-weight: bold;
 }
-  
-  * {
-    box-sizing: border-box;
-    line-height: 1.4;
-    font-family: Arial;
-  }
+
+* {
+  box-sizing: border-box;
+  line-height: 1.4;
+  font-family: Arial;
+}
 
 @layer styleguide {
-  * {
-    box-sizing: border-box;
-    line-height: 1.4;
-    font-family: Arial;
-  }
-
   :root {
     /* Colors */
     --primary-color-main: rgb(180 189 208);
@@ -65,7 +59,6 @@
     --font-size-s: 1rem;
     --font-size-xs: 0.8rem;
   }
-
 
   /* Classes voor visualisatie styleguide */
   .primary-color-main {
@@ -117,7 +110,7 @@
   .font-size-xs {
     font-size: 0.8rem;
   } */
- 
+
   /* .bold {
     font-weight: 700;
   }
@@ -171,7 +164,7 @@
     width: fit-content;
     font-size: 1rem;
   }
-  
+
   /* ✔️ gegroepeerd: Arial-BoldMT */
   h1,
   h2,
@@ -219,68 +212,68 @@
   }
 }
 
-#navList{
-    padding: 0 0 0 0;
-    display: flex;
-    gap: 0em;
-    justify-content: center;
-    translate: center;
-    white-space: nowrap;
-    padding-left: 1.5em;
-    flex-wrap: wrap;
+#navList {
+  padding: 0 0 0 0;
+  display: flex;
+  gap: 0em;
+  justify-content: center;
+  translate: center;
+  white-space: nowrap;
+  padding-left: 1.5em;
+  flex-wrap: wrap;
 
-        @media (min-width: 360px) {
-            flex-wrap: nowrap;
-        }
+  @media (min-width: 360px) {
+    flex-wrap: nowrap;
+  }
 
-        @media (min-width: 570px){
-        gap: 1em;
-        }
+  @media (min-width: 570px) {
+    gap: 1em;
+  }
 }
 
 /* hover function met vlaggetje clipper */
-.navKnopLink,.navKnop:focus-visible {
-    background-color: var(--primary-color-main);
-    border-radius: 5rem;
-    margin-bottom: 1rem;
+.navKnopLink,
+.navKnop:focus-visible {
+  background-color: var(--primary-color-main);
+  border-radius: 5rem;
+  margin-bottom: 1rem;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* knoppen in de nav */
-.navKnop{
-    color: rgb(51 52 103);
-    padding-right: 2rem;
-    translate: 0 0;
+.navKnop {
+  color: rgb(51 52 103);
+  padding-right: 2rem;
+  translate: 0 0;
 }
 
-
-
 /* hover function met vlaggetje clipper */
-.navKnop:hover,.navKnop:focus-visible{
-    background-color: white;
-    /* padding-right: 2rem; */
-    clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
-    /* clip-path veranderen zodat padding niet nodig is
+.navKnop:hover,
+.navKnop:focus-visible {
+  background-color: white;
+  /* padding-right: 2rem; */
+  clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
+  /* clip-path veranderen zodat padding niet nodig is
     omdat hij beweegt hij moet statisch zijn */
-    padding: 0.1em 2.5em 0.1em 0.5em;
+  padding: 0.1em 2.5em 0.1em 0.5em;
 }
 
 /* kleurverrandering als je klikt op de navKnop */
-.navKnop:active{
-    color: lightblue;
+.navKnop:active {
+  color: lightblue;
 }
 /* fixed probleem waar de list nu alleen de styling weghaalt in de nav en niet in de andere lists  */
 #navList {
-    list-style: none;
+  list-style: none;
 }
 
-li a{
-    text-decoration: none;
-    padding: 0.5em;
-    padding-right: 1rem;
-    /* font-size: 0.8em; */
-    font-weight: bold;
-    display: block;
+li a {
+  text-decoration: none;
+  padding: 0.5em;
+  padding-right: 1rem;
+  /* font-size: 0.8em; */
+  font-weight: bold;
+  display: block;
 }
