@@ -96,22 +96,22 @@
     color: var(--color6);
   }
 
-  .body-home {
+  .main-home {
     background-color: var(--color6);
     color: var(--color3);
   }
 
-  .body-zuidoost {
+  .main-zuidoost {
     background-color: var(--color6);
     color: var(--color2);
   }
 
-  .body-oost {
+  .main-oost {
     background-color: var(--color6);
     color: var(--color3);
   }
 
-  .body-nieuw-west {
+  .main-nieuw-west {
     background-color: var(--color6);
     color: var(--color4);
   }
