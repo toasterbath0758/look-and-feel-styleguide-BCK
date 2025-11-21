@@ -141,7 +141,7 @@
   }
 
   /* Typografie */
-  /* .font-size-xxl {
+  .font-size-xxl {
     font-size: 2.8rem;
   }
 
@@ -163,20 +163,20 @@
 
   .font-size-xs {
     font-size: 0.8rem;
-  } */
+  }
 
-  /* .bold {
+  .bold {
     font-weight: 700;
   }
 
   .blockquote1 {
-    background-color: var(--accent-color);
-    color: var(--text-color-blockquote);
+    background-color: var(--color5);
+    color: var(--color6);
     text-align: center;
     font-style: italic;
     padding: 0.5rem 1.2rem;
     border-radius: 6rem;
-    max-width: 400px;
+    max-width: 450px;
   }
 
   #formulieren {
