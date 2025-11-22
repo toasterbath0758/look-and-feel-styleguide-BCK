@@ -262,7 +262,7 @@
 
   /* figcaption */
   figcaption {
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-s);
   }
 }
 
@@ -273,7 +273,6 @@
   justify-content: center;
   translate: center;
   white-space: nowrap;
-  padding-left: 1.5em;
   flex-wrap: wrap;
 
   @media (min-width: 360px) {
@@ -296,11 +295,13 @@
   justify-content: center;
   align-items: center;
 }
+
 /* knoppen in de nav */
 .navKnop {
   color: var(--color3);
   padding-right: 2rem;
   translate: 0 0;
+    padding: 0.1em 2.5em 0.1em 0.5em;
 }
 
 /* hover function met vlaggetje clipper */
@@ -309,9 +310,6 @@
   background-color: var(--color6);
   /* padding-right: 2rem; */
   clip-path: polygon(90% 0, calc(95% - 1.5em) 50%, 90% 100%, 0 100%, 0 0);
-  /* clip-path veranderen zodat padding niet nodig is
-    omdat hij beweegt hij moet statisch zijn */
-  padding: 0.1em 2.5em 0.1em 0.5em;
 }
 
 /* kleurverrandering als je klikt op de navKnop */
