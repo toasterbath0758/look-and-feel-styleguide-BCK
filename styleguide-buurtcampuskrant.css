@@ -238,16 +238,6 @@
     font-family: arial;
   }
 
-  /* kop */
-  h1 {
-    font-size: var(--font-size-xxl);
-  }
-
-  /* subkop */
-  h2 {
-    font-size: var(--font-size-xl);
-  }
-
   /* navknoppen */
   a {
     font-size: var(--font-size-l);
