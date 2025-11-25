@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Arial-BoldMT";
-  src: url("Fonts/Arial-BoldMT.ttf");
+  src: url("fonts/Arial-BoldMT.ttf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Arial-BoldMT";
-  src: url("Fonts/Arial-BoldMT.ttf");
+  src: url("fonts/Arial-BoldMT.ttf");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "BuurtCampusArial-Bold";
-  src: url("Fonts/BuurtCampusArial-Bold.ttf");
+  src: url("fonts/BuurtCampusArial-Bold.ttf");
   font-weight: bold;
 }
 
@@ -291,7 +291,7 @@
   color: var(--color3);
   padding-right: 2rem;
   translate: 0 0;
-    padding: 0.1em 2.5em 0.1em 0.5em;
+  padding: 0.1em 2.5em 0.1em 0.5em;
 }
 
 /* hover function met vlaggetje clipper */
