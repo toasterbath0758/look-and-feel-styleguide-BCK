@@ -303,9 +303,9 @@
 }
 
 /* kleurverrandering als je klikt op de navKnop */
-.navKnop:active {
+/* .navKnop:active {
   color: lightblue;
-}
+} */
 /* fixed probleem waar de list nu alleen de styling weghaalt in de nav en niet in de andere lists  */
 #navList {
   list-style: none;
